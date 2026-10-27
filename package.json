@@ -1,0 +1,23 @@
+{
+  "name": "nova-panaderya-fullstack",
+  "version": "2.0.0",
+  "private": true,
+  "description": "NOVA Panaderya: storefront + Express API + SQLite (orders, loyalty, promos, slots, tracking, admin).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^13.0.3",
+    "connect-sqlite3": "^0.9.16",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=20.12"
+  }
+}
